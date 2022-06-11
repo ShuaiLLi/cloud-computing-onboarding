@@ -1,0 +1,14 @@
+site_name: Cloud Computing Onboarding
+repo_url: 
+repo_name: cloud-computing-onboarding
+theme:
+  name: material
+  font:
+    text: Museo Sans
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/cloud-favicon.png
+  favicon: assets/cloud-favicon.png
+nav:
+  - Introduction: index.md
+ 
