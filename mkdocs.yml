@@ -10,5 +10,7 @@ theme:
   logo: assets/cloud-favicon.png
   favicon: assets/cloud-favicon.png
 nav:
-  - Introduction: index.md
+  - 简介: index.md
+  - 虚拟化:
+    - 基本概念: virtualization/overview.md
  
