@@ -6,7 +6,7 @@
 
 👉 推荐 [在线阅读](https://shuailli.github.io/cloud-computing-onboarding/)
 
-👉 如果你不知道该学习什么的话，请看 Scala [学习路线图](https://shuailli.github.io/golang-onboarding/assets/cloud-computing-learning-path.html)
+👉 如果你不知道该学习什么的话，请看 Scala [学习路线图](https://shuailli.github.io/cloud-computing-onboarding/assets/cloud-computing-learning-path.html)
 
 ## Development
 
