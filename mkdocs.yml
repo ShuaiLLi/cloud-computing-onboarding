@@ -13,4 +13,7 @@ nav:
   - 简介: index.md
   - 虚拟化:
     - 基本概念: virtualization/overview.md
+  - KVM:
+    - 基本概念: kvm/overview.md
+    - 准备KVM实验环境: kvm/prepare-the-experimental-environment.md
  
