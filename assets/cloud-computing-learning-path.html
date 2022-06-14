@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.5/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.13.5"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.5/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"Cloud Computing Learning Path","children":[{"type":"heading","depth":1,"payload":{"lines":[2,3]},"content":"虚拟化","children":[{"type":"heading","depth":2,"payload":{"lines":[4,5]},"content":"基本概念"},{"type":"heading","depth":2,"payload":{"lines":[6,7]},"content":"KVM","children":[{"type":"heading","depth":3,"payload":{"lines":[8,9]},"content":"基本概念"},{"type":"heading","depth":3,"payload":{"lines":[10,11]},"content":"准备KVM实验环境"},{"type":"heading","depth":3,"payload":{"lines":[12,13]},"content":"启动KVM虚拟机"},{"type":"heading","depth":3,"payload":{"lines":[14,15]},"content":"虚拟机管理实操"},{"type":"heading","depth":3,"payload":{"lines":[16,17]},"content":"虚拟化CPU和内存管理","children":[{"type":"heading","depth":4,"payload":{"lines":[18,19]},"content":"原理"},{"type":"heading","depth":4,"payload":{"lines":[20,21]},"content":"实操"}]},{"type":"heading","depth":3,"payload":{"lines":[22,23]},"content":"虚拟化网络管理","children":[{"type":"heading","depth":4,"payload":{"lines":[24,25]},"content":"原理"},{"type":"heading","depth":4,"payload":{"lines":[26,27]},"content":"实操"}]},{"type":"heading","depth":3,"payload":{"lines":[28,29]},"content":"虚拟化存储管理","children":[{"type":"heading","depth":4,"payload":{"lines":[30,31]},"content":"原理"},{"type":"heading","depth":4,"payload":{"lines":[32,33]},"content":"实操"}]}]}]},{"type":"heading","depth":1,"payload":{"lines":[34,35]},"content":"云计算","children":[{"type":"heading","depth":2,"payload":{"lines":[36,37]},"content":"基本概念"}]},{"type":"heading","depth":1,"payload":{"lines":[38,39]},"content":"OpenStack","children":[{"type":"heading","depth":2,"payload":{"lines":[40,41]},"content":"基本概念与架构"},{"type":"heading","depth":2,"payload":{"lines":[42,43]},"content":"搭建实验环境"},{"type":"heading","depth":2,"payload":{"lines":[44,45]},"content":"核心组件","children":[{"type":"heading","depth":3,"payload":{"lines":[46,47]},"content":"鉴权组件-Keystone"},{"type":"heading","depth":3,"payload":{"lines":[48,49]},"content":"镜像组件-Glance"},{"type":"heading","depth":3,"payload":{"lines":[50,51]},"content":"计算组件-Nova"},{"type":"heading","depth":3,"payload":{"lines":[52,53]},"content":"网络组件-Neutron"},{"type":"heading","depth":3,"payload":{"lines":[54,55]},"content":"仪表盘组件-Horizon"},{"type":"heading","depth":3,"payload":{"lines":[56,57]},"content":"对象存储组件-Swift"},{"type":"heading","depth":3,"payload":{"lines":[58,59]},"content":"块存储组件-Cinder"}]}]}]},{})</script>
+</body>
+</html>
